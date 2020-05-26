@@ -23,7 +23,7 @@ futures = "0.3.5"
 uint = { version = "0.8.3", default-features = false }
 log = "0.4.8"
 rlp = "0.4.5"
-sha2 = "0.8.1"
+sha2 = "0.8.2"
 hkdf = "0.8.0"
 openssl = "0.10.29"
 hex = "0.4.2"

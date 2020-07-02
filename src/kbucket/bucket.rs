@@ -33,7 +33,7 @@
 use super::*;
 
 /// Maximum number of nodes in a bucket, i.e. the (fixed) `k` parameter.
-pub const MAX_NODES_PER_BUCKET: usize = 16;
+pub const MAX_NODES_PER_BUCKET: usize = 1024;
 const MAX_NODES_PER_SUBNET_BUCKET: usize = 2;
 
 /// A `PendingNode` is a `Node` that is pending insertion into a `KBucket`.

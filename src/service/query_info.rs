@@ -9,7 +9,7 @@ use tokio::sync::oneshot;
 
 /// The number of distances to request when running a FINDNODE query. The probability that a peer returns
 /// any given target peer is `1 - 0.5**MAX_FINDNODE_REQUESTS`.
-const MAX_FINDNODE_REQUESTS: usize = 3;
+const MAX_FINDNODE_REQUESTS: usize = 7;
 
 /// Information about a query.
 #[derive(Debug)]
